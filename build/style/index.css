@@ -555,32 +555,41 @@ video {
   z-index: -10;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mb-9 {
+  margin-bottom: 2.25rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
-.ml-48 {
-  margin-left: 12rem;
+.ml-36 {
+  margin-left: 9rem;
 }
 
 .flex {
   display: flex;
 }
 
-.h-8 {
-  height: 2rem;
+.h-7 {
+  height: 1.75rem;
 }
 
 .h-1 {
@@ -591,16 +600,28 @@ video {
   height: 2.75rem;
 }
 
-.h-12 {
-  height: 3rem;
+.h-9 {
+  height: 2.25rem;
 }
 
-.h-36 {
-  height: 9rem;
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .h-1\/3 {
   height: 33.333333%;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-full {
@@ -611,30 +632,57 @@ video {
   width: 2.5rem;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-1\/2 {
-  width: 50%;
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-24 {
   width: 6rem;
 }
 
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-1\/3 {
   width: 33.333333%;
+}
+
+.translate-x-9 {
+  --tw-translate-x: 2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1 {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-9 {
+  --tw-translate-y: -2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-6 {
+  --tw-translate-x: 1.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-14 {
+  --tw-translate-y: -3.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-row {
@@ -665,8 +713,8 @@ video {
   gap: 0.5rem;
 }
 
-.gap-14 {
-  gap: 3.5rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-10 {
@@ -716,17 +764,12 @@ video {
   background-color: rgb(1 19 31 / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-1 {
@@ -734,16 +777,36 @@ video {
   padding-right: 0.25rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
+.pl-9 {
+  padding-left: 2.25rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
-.pl-8 {
-  padding-left: 2rem;
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-primary {
@@ -754,19 +817,24 @@ video {
   font-family: Sacramento, cursive;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-5xl {
@@ -774,8 +842,9 @@ video {
   line-height: 1;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .uppercase {
@@ -837,7 +906,6 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-size: xx-large;
-  padding: 20px;
 }
 
 ol, ul {
@@ -860,15 +928,15 @@ table {
 }
 
 .my-title{
-  font-size: 200px;
+  font-size: 9rem;
 }
 
 #left-div{
   position: absolute;
-  left: 280px;
+  left: 318px;
 }
 
 #summer-style{
-  position: absolute;
+  /* position: absolute;   */
   top: 309px;
-}
+} 
