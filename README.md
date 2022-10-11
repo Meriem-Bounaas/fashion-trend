@@ -1,11 +1,10 @@
 # About the Project:
+Fashion , a small Html5, tailwind template coding from an existing design on [dribble](https://dribbble.com/shots/19280384-Clothing-Brand-Landing-Page)
 
+ [Live Demo](fashion-trend.vercel.app)
 
- [Live Demo]()
- <img src="./src/media/app.png">
+ <img width='500px' height='auto' src="./build/media/screenshot.png">
 
- ## Features:
-
-
- ## Technologies Used:
+  ## Technologies Used:
+  HTML5 , Tailwind CSS and a cup of coffee :coffee:
 
